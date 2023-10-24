@@ -1,36 +1,30 @@
 ## Planificare și design:
+Începem prin a defini obiectivele jocului, regulile și gameplay-ul. Ce vrem să realizeze jucătorii în joc?
+Creăm hărțile pentru nivele, stabilim mecanici de joc, inclusiv mișcarea și comportamentul fantomelor.
+Stabilim cerințele pentru grafică, sunet și interfața utilizatorului.
+## Configurarea Mediului de Dezvoltare:
 
-Definiți cerințele jocului Pac-Man, cum ar fi regulile, personajele, interacțiunile, nivelele, și aspectul vizual.
-Realizați un design al jocului, inclusiv hărțile nivelurilor, aspectul grafic, animațiile și sunetul.
-Configurarea mediului de dezvoltare:
+Instalăm un mediu de dezvoltare C++ precum Visual Studio sau Code::Blocks.
+Adăugăm biblioteci grafice, cum ar fi SFML sau SDL, pentru a gestiona grafica și input-ul.
+## Implementarea Entităților de Joc:
 
-Instalați un mediu de dezvoltare C++ (de exemplu, Visual Studio, Code::Blocks, sau altul) și biblioteci grafice (cum ar fi SFML sau SDL) pentru a gestiona aspectul vizual al jocului.
-Implementarea entităților jocului:
+Creăm clase pentru personaje, cum ar fi Pac-Man și fantome, și pentru obiectele de pe hărți.
+Implementăm logica mișcării, coliziunilor și interacțiunilor.
+## Logica Jocului:
 
-Definiți și implementați clase pentru personaje (Pac-Man, fantome), puncte, hărți și alte obiecte de joc.
-Asigurați gestionarea mișcărilor, coliziunilor și logică de joc pentru fiecare entitate.
-Implementarea logicii jocului:
+Dezvoltăm logica jocului, inclusiv starea jocului (în joc, pauză, câștig sau pierdere).
+Gestionăm sănătatea, punctele și nivelurile.
+Implementăm sistemul de punctaj și interacțiunile cu elementele de pe hărți (puncte și fructe).
+## Grafică și Sunet:
 
-Implementați logica jocului Pac-Man, cum ar fi mutarea personajelor, sănătatea, scorul și gestiunea nivelurilor.
-Asigurați gestionarea stărilor jocului, cum ar fi jocul în curs, pauza sau game over.
-Grafică și sunet:
+Adăugăm grafică pentru a afișa hărțile, personajele, animațiile și efectele vizuale.
+Integrăm sunete și muzică pentru a completa experiența jocului.
+## Input și Control:
 
-Adăugați grafică și sunet la joc pentru a crea o experiență vizuală și auditivă autentică.
-Utilizați bibliotecile grafice pentru a afișa hărțile, personajele și animațiile.
-Testare și depanare:
+Configurăm interfața utilizatorului și input-ul pentru a permite jucătorilor să controleze Pac-Man.
+Gestionăm tastatură sau gamepad-ul pentru mișcare.
+## Testare și Depanare:
 
-Testați jocul pentru a identifica erori, bucle infinite sau probleme de performanță.
-Efectuați depanarea și corectați problemele găsite.
-Optimizare:
+Testăm jocul pentru erori, bucle infinite sau orice probleme de gameplay.
+Depanăm și corectăm problemele identificate.
 
-Optimizează jocul pentru a asigura o performanță fluidă.
-Eliminați orice ineficiențe în cod.
-Publicarea jocului:
-
-După finalizarea jocului și testare extinsă, îl puteți publica pe diferite platforme, fie pentru uz personal, fie pentru public.
-Extindere:
-
-După lansare, puteți continua să adăugați caracteristici noi, nivele suplimentare și îmbunătățiri grafice.
-Comunitate și feedback:
-
-Interacționați cu jucătorii și primiți feedback pentru a îmbunătăți jocul în continuare.
